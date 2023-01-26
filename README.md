@@ -4,26 +4,33 @@ Demo UI: https://www.4sharing.ca
 
 API Documentation (Swagger): https://catsftwdev.azurewebsites.net
 
-Angular Setup:
+## Angular Setup:
 
-prerequisites
-node v14.20.0
-VS Code
-Visual Studio 2019+
+Prerequisites
+ - node v14.20.0
+ - VS Code
+ - Visual Studio 2019+
 
 In VS Code:
-Open Folder <Your Project folder>\Cats_FTW.Angular
-Menu Terminal> New Terminal
-Run the following command:
+1. Open Folder <Your Project folder>\Cats_FTW.Angular
+2. Menu Terminal> New Terminal
+3. Run the following command:
+```sh
 $ npm install
 $ npm install -g @angular/cli@7.3.9
 $ ng serve
+```
+
 Once compiled, open in browser: http://localhost:4200/
 
 
-API Project Setup
-Create blank database
-Add connection string for SQLDbContext to Web.config
+## API Project Setup:
+- Create blank database or provide your IP Address and I can Open Azure Firewall
+- Add connection string for SQLDbContext to Web.config
+- IF new data base, run following command in Visual Studio Package Manager Console:
+```sh
 pm> update-database
+```
+
 
 
