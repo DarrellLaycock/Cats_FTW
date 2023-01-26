@@ -29,8 +29,8 @@ Setup Steps:
 pm> update-database
 ```
  
- - The above command will add some cat fact to the database table CatFacts.
- - When you start the project, up to 200 cat images will be added to the database table CatImages from the https://thecatapi.com.
+ - The above command will add some cat facts to the database table CatFacts.
+ - When you start the project, up to 200 cat images will be added to the database table CatImages from the api https://thecatapi.com.
  
  
 
