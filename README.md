@@ -46,10 +46,10 @@ $ serve
  - Visual Studio 2019+ Community Edition
  
 In Visual Studio:
-1. open soultion file Cats_FTW.sln
-2.Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
-3. Update the connection string for SQLDbContext in Web.config
-4. If you created a new blank database, run following command in Visual Studio Package Manager Console:
+ 1. Open solution file Cats_FTW.sln
+ 2.Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
+ 3. Update the connection string for SQLDbContext in Web.config
+ 4. If you created a new blank database, run following command in Visual Studio Package Manager Console:
  
 ```sh
 pm> update-database
