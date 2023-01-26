@@ -6,7 +6,7 @@ API Documentation (Swagger): https://catsftwdev.azurewebsites.net
 
 ## Angular Setup:
 
-Prerequisites
+Prerequisites:
  - node v14.20.0
  - VS Code
  - Visual Studio 2019+
@@ -22,6 +22,19 @@ $ ng serve
 ```
 
 Once compiled, open in browser: http://localhost:4200/
+ 
+ ## Production Build
+
+This step builds your project and concatenates the files into one JavaScript file that can be used wherever you want to use your web component. Head back to your terminal and run the following command:
+
+$ npm run build:component
+
+When the command is finished, you should find a widget folder in the root of your project with a cat-facts-widget.js file. Now, you can use this one file instead of including all the five JS files when you want to import your web component. In the widget folder, create an index.html file and add the following content:
+
+Head back to your terminal, navigate to the widget folder and run the serve command:
+
+$ cd widget
+$ serve
 
 
 ## API Project Setup:
