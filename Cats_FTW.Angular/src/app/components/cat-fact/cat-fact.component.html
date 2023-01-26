@@ -1,26 +1,28 @@
-<div class="container wrapper" *ngIf="catFact?.img">
+<div class="container wrapper" *ngIf="catFact?.img" role="main" aria-live="assertive" aria-atomic="false"
+  aria-relevant="all">
 
-  <div class="row justify-content-center" role="main" aria-live="assertive" aria-atomic="false" aria-relevant="all">
+  <div class="row justify-content-center">
 
     <div class="col-sm catImage">
-      <img src="{{catFact?.img}}" alt="Cat Photo" min-width="350">
+      <img src="{{catFact?.img}}" alt="Cat Photo">
     </div>
 
     <div class="col-sm">
 
-      <div class="container" style="margin-top: 40px;">
+      <div class="container catFactContainer">
         <h3>Cat Fact:</h3>
         <div class="row">
           <div class="col">
-            <p class="catFact">
-              {{catFact?.fact}}
-            </p>
+            <div class="catFact">
+              <i>{{catFact?.fact}}</i>
+            </div>
           </div>
         </div>
+        
         <div class="row justify-content-center">
-          <div class="col-6">
-            <button *ngIf="catFact?.fact" class="btn btn-primary" autofocus (click)="getCatFact()"
-              style="min-width: 150px;" aria-label="Show New Fact">
+          <div class="col-8 text-center">
+            <button *ngIf="catFact?.fact" class="btn btn-primary btnNextFact" autofocus (click)="getCatFact()"
+              aria-label="Show New Fact">
               Show New Fact
               <svg xmlns="http://www.w3.org/2000/svg" fill="#FFF" viewBox="0 0 512 512">
                 <path
