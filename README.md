@@ -14,7 +14,7 @@ Setup Steps:
 
 1. Open Visual Studio and then choose the top-right dashboard option "Clone a repository"
 
-2. Enter the url for the repository: https://github.com/DarrellLaycock/Cats_FTW.git
+2. Enter the repository location: https://github.com/DarrellLaycock/Cats_FTW.git , then press the "Clone" button.
 
 3. Open solution file Cats_FTW.sln
  
