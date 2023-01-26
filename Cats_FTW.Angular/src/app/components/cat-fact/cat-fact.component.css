@@ -2,27 +2,42 @@
   border: solid 1px #666;
   padding: 1rem;
   border-radius: 0.5rem;
-  margin: 10px;
+  margin: 5px;
 }
 
-.catImage {
+.catImage div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.catFact p {
+.catImage img {
+  border-radius: 10px;
+  overflow: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.catFactContainer {
+  margin-top: 20px;
+}
+
+.catFact {
   text-align: justify;
   text-justify: inter-word;
-  height: 70px;
+  min-height: 80px;
+  margin-top: 20px;  
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
-img {
-  border-radius: 30px;
-  overflow: auto;
+.btnNextFact {
+  font-size: 18px;
+  margin-top: 20px;
+  min-width: 180px; 
 }
 
-svg {
+.btnNextFact svg {
   width: 18px;
   height: 18px;
   margin-top: -3px;
