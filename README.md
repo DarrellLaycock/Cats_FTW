@@ -9,6 +9,7 @@ API Documentation (Swagger): https://catsftwdev.azurewebsites.net
  
  Prerequisites:
  - Visual Studio 2019+ Community Edition
+ - SQL Server Express
  
 Setup Steps:
 
