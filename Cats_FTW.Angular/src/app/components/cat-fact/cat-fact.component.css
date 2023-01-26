@@ -1,0 +1,30 @@
+.wrapper {
+  border: solid 1px #666;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 10px;
+}
+
+.catImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catFact p {
+  text-align: justify;
+  text-justify: inter-word;
+  height: 70px;
+}
+
+img {
+  border-radius: 30px;
+  overflow: auto;
+}
+
+svg {
+  width: 18px;
+  height: 18px;
+  margin-top: -3px;
+  margin-left: 3px;
+}
