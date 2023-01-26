@@ -9,7 +9,6 @@ API Documentation (Swagger): https://catsftwdev.azurewebsites.net
 Prerequisites:
  - node v14.20.0
  - VS Code
- - Visual Studio 2019+
 
 In VS Code:
 1. Open Folder <Your Project folder>\Cats_FTW.Angular
@@ -41,7 +40,11 @@ $ serve
 ```
 
 
-## API Project Setup:
+## ASP.Net Web API Project Setup:
+ 
+ Prerequisites:
+ - Visual Studio 2019+ Community Edition
+ 
 - With Visual Studio 2019+ Community Edition, open soultion file Cats_FTW.sln
 - Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
 - Update the connection string for SQLDbContext in Web.config
