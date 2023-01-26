@@ -50,6 +50,17 @@ $ npm install -g @angular/cli@7.3.9
 $ ng serve
 ```
 
+If you want to use your local API, please change the api-url in the ./src/app/app.component.html:
+FROM:
+```sh
+<cat-facts apiUrl="https://catsftwdev.azurewebsites.net/api/catfact"></cat-fact>
+```
+TO:
+
+```sh
+<cat-fact apiUrl="https://localhost:44368/api/catfact"></cat-fact>
+```
+
 Once compiled, open in browser: http://localhost:4200/
  
  ## Production Build
@@ -68,4 +79,10 @@ Head back to your terminal, navigate to the widget folder and run the serve comm
 $ cd widget
 $ serve
 ```
+
+Please note the custom element is in a differnt format for production. :
+```sh
+<cat-facts-widget api-url="https://catsftwdev.azurewebsites.net/api/catfact"></cat-facts-widget>
+```
+
 
