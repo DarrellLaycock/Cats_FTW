@@ -48,7 +48,7 @@ $ serve
 In Visual Studio:
 1. Open solution file Cats_FTW.sln
  
-2.Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
+2. Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
  
 3. Update the connection string for SQLDbContext in Web.config
  
