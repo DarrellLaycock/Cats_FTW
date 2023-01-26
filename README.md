@@ -4,6 +4,35 @@ Demo UI: https://www.4sharing.ca
 
 API Documentation (Swagger): https://catsftwdev.azurewebsites.net
 
+
+## ASP.Net Web API Project Setup:
+ 
+ Prerequisites:
+ - Visual Studio 2019+ Community Edition
+ 
+Setup Steps:
+
+1. Open Visual Studio and then choose the top-right dashboard option "Clone a repository"
+
+2. Enter the url for the repository: https://github.com/DarrellLaycock/Cats_FTW.git
+
+3. Open solution file Cats_FTW.sln
+ 
+4. Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
+ 
+5. Update the connection string for SQLDbContext in Web.config
+ 
+6. If you created a new blank database, run following command in Visual Studio Package Manager Console:
+ 
+```sh
+pm> update-database
+```
+ 
+ - The above command will add some cat fact to the database table CatFacts.
+ - When you start the project, up to 200 cat images will be added to the database table CatImages from the https://thecatapi.com.
+ 
+ 
+
 ## Angular Setup:
 
 Prerequisites:
@@ -38,29 +67,4 @@ Head back to your terminal, navigate to the widget folder and run the serve comm
 $ cd widget
 $ serve
 ```
-
-
-## ASP.Net Web API Project Setup:
- 
- Prerequisites:
- - Visual Studio 2019+ Community Edition
- 
-In Visual Studio:
-1. Open solution file Cats_FTW.sln
- 
-2. Create blank SQL Server database or provide your IP Address and I can Open the Azure SQL Firewall
- 
-3. Update the connection string for SQLDbContext in Web.config
- 
-4. If you created a new blank database, run following command in Visual Studio Package Manager Console:
- 
-```sh
-pm> update-database
-```
- 
- - The above command will add some cat fact to the database table CatFacts.
- - When you start the project, up to 200 cat images will be added to the database table CatImages from the https://thecatapi.com.
- 
- 
-
 
